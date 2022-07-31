@@ -1,0 +1,10 @@
+[run]
+omit = 
+    */venv/*
+    */admin.py
+    manage.py
+    backend/settings.py
+
+[report]
+exclude_lines =
+    @shared_task 
